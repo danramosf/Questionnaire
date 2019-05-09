@@ -1,0 +1,7 @@
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\bin\Debug\GuessTheNumbers.exe.config
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\bin\Debug\GuessTheNumbers.exe
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\bin\Debug\GuessTheNumbers.pdb
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\obj\Debug\GuessTheNumbers.csprojAssemblyReference.cache
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\obj\Debug\GuessTheNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\obj\Debug\GuessTheNumbers.exe
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\GuessTheNumbers\obj\Debug\GuessTheNumbers.pdb
