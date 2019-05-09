@@ -50,3 +50,31 @@ If(-Not $installed_core){
 }else{
 	Write-Host ".NET Core 2.2.203 is already installed."
 }
+
+
+
+#Allow inbound traffic on port 1433
+$rules = Get-NetFirewallRule
+
+if (-not ($rules.DisplayName.Contains("Allow port 1433"))){
+	$params = @{
+		 DisplayName = "Allow port 1433"
+		 LocalPort = 1433
+		 Direction="Inbound"
+		 Protocol ="TCP"
+		 Action = "Allow"
+	}
+	New-NetFirewallRule @params
+} else {
+	Write-Host "The rule 'Allow port 1433' already exists."
+}
+
+
+
+#Creating a new registry and adding a value to it
+if( -not (Test-Path -Path HKCU:\Company -PathType Container)){
+	New-Item -Path "HKCU:\" -Name Company
+	New-ItemProperty -Path "HKCU:\Company" -Name "Company" -Value "MCU" -PropertyType "String"
+}else {
+	Write-Host "The registry with the key 'Company' already exists."
+}
