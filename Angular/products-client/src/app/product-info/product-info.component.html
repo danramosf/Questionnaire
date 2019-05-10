@@ -1,0 +1,11 @@
+<div *ngIf="product" class="products">
+  <h2>{{product.ProductName | uppercase}} Info</h2>
+  <div><span>ID: </span>{{product.ID}}</div>
+  <div><span>Name: </span>{{product.ProductName}}</div>
+  <div><span>Quantity: </span>{{product.Quantity}}</div>
+  <div>
+    <button routerLink="/product-update/{{product.ID}}">
+      Edit
+    </button>
+  </div>
+</div>

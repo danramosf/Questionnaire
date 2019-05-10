@@ -84,3 +84,6 @@ C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\obj\Debug\Pr
 C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\obj\Debug\ProductsAPI.csproj.CopyComplete
 C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\obj\Debug\ProductsAPI.dll
 C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\obj\Debug\ProductsAPI.pdb
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\bin\System.Web.Cors.dll
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Dan-Vivi-Kate\Desktop\MCU\Questionnaire\CSharp\ProductsAPI\bin\System.Web.Http.Cors.xml

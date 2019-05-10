@@ -7,11 +7,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using ProductsAPI;
 
 namespace ProductsAPI.Controllers
 {
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
     public class ProductsController : ApiController
     {
 
@@ -38,7 +40,7 @@ namespace ProductsAPI.Controllers
 
 
         // PUT: api/Products/5
-        [Authorize]
+        //[Authorize]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutProduct(int id, Product product)
         {
@@ -74,7 +76,7 @@ namespace ProductsAPI.Controllers
         }
 
         // POST: api/Products
-        [Authorize]
+        //[Authorize]
         [ResponseType(typeof(Product))]
         public IHttpActionResult PostProduct(Product product)
         {
