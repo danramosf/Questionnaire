@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ProductsContext-Web.config Connection String" description="ProductsContext Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/ProductsModel.csdl|res://*/ProductsModel.ssdl|res://*/ProductsModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=CFERREIRA\SQLEXPRESS;initial catalog=ProductsMCU;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dan-Vivi-Kate\\Desktop\\MCU\\Questionnaire\\CSharp\\ProductsAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsContext']/@connectionString" />
+  </parameter>
+</parameters>
